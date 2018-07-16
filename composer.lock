@@ -1,7 +1,7 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
     "content-hash": "6ad3a0e0e7d9a14f6f3228d0f36dd7ec",
@@ -2629,6 +2629,7 @@
                 "github",
                 "test"
             ],
+            "abandoned": "php-coveralls/php-coveralls",
             "time": "2017-12-06T23:17:56+00:00"
         },
         {
@@ -3289,12 +3290,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "25088d9c91a37b2306f12ee4dca5b929f5d80af5"
+                "reference": "92822a0b485fc17d28b9502e8a3e6d290bd1b042"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/25088d9c91a37b2306f12ee4dca5b929f5d80af5",
-                "reference": "25088d9c91a37b2306f12ee4dca5b929f5d80af5",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/92822a0b485fc17d28b9502e8a3e6d290bd1b042",
+                "reference": "92822a0b485fc17d28b9502e8a3e6d290bd1b042",
                 "shasum": ""
             },
             "require": {
@@ -3332,7 +3333,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-06-01T05:50:09+00:00"
+            "time": "2018-07-12T05:34:59+00:00"
         },
         {
             "name": "symfony/config",
@@ -4276,20 +4277,21 @@
         },
         {
             "name": "twig/twig",
-            "version": "v2.4.8",
+            "version": "v2.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "7b604c89da162034bdf4bb66310f358d313dd16d"
+                "reference": "6a5f676b77a90823c2d4eaf76137b771adf31323"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/7b604c89da162034bdf4bb66310f358d313dd16d",
-                "reference": "7b604c89da162034bdf4bb66310f358d313dd16d",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/6a5f676b77a90823c2d4eaf76137b771adf31323",
+                "reference": "6a5f676b77a90823c2d4eaf76137b771adf31323",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.0",
+                "symfony/polyfill-ctype": "^1.8",
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "require-dev": {
@@ -4300,7 +4302,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.4-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "autoload": {
@@ -4329,16 +4331,16 @@
                 },
                 {
                     "name": "Twig Team",
-                    "homepage": "http://twig.sensiolabs.org/contributors",
+                    "homepage": "https://twig.symfony.com/contributors",
                     "role": "Contributors"
                 }
             ],
             "description": "Twig, the flexible, fast, and secure template language for PHP",
-            "homepage": "http://twig.sensiolabs.org",
+            "homepage": "https://twig.symfony.com",
             "keywords": [
                 "templating"
             ],
-            "time": "2018-04-02T09:24:19+00:00"
+            "time": "2018-07-13T07:18:09+00:00"
         },
         {
             "name": "wapmorgan/php-code-analyzer",
